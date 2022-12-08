@@ -1,0 +1,22 @@
+{
+  "name": "webc/cronofy",
+  "description": "PHP wrapper for Cronofy's unified calendar API",
+  "version": "v1.1.0",
+  "license": "MIT",
+
+  "require": {
+    "php": ">=7.2.8",
+    "cronofy/cronofy": "^1.1",
+    "ext-curl": "*",
+    "kreait/firebase-php": "5.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+
+    "psr-4": {
+      "Cronofy\\": "src/",
+      "am\\internet\\":"./am/internet/",
+      "config\\": "./config/"
+    }
+  }
+}
